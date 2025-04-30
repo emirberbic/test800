@@ -47,7 +47,7 @@ async function fulfillOrder(session: Stripe.Checkout.Session) {
 }
 
 // Need to export a config to handle the raw body
-export const config = {
+export const routeSegmentConfig = {
   api: {
     bodyParser: false,
   },
