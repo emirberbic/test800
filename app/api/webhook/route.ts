@@ -46,9 +46,4 @@ async function fulfillOrder(session: Stripe.Checkout.Session) {
   // and possibly send confirmation emails or generate ticket QR codes
 }
 
-// Need to export a config to handle the raw body
-export const routeSegmentConfig = {
-  api: {
-    bodyParser: false,
-  },
-};
+
