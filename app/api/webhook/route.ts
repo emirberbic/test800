@@ -45,9 +45,3 @@ async function fulfillOrder(session: Stripe.Checkout.Session) {
   // In a real application, you'd store this information in a database
   // and possibly send confirmation emails or generate ticket QR codes
 }
-
-export const routeSegmentConfig = {
-  runtime: "edge",
-  api: { bodyParser: false },
-};
-
